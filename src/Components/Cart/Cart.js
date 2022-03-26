@@ -40,7 +40,8 @@ const Cart = ({Products}) => {
 
 
 
-            {/* <ChooseCart chooseItem={chooseItem}></ChooseCart> */}
+            <ChooseCart chooseItem={chooseItem}></ChooseCart>
+            
             
         </div>
     );
