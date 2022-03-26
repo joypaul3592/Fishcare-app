@@ -1,24 +1,26 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import CartDetais from '../CartDetais/CartDetais';
 import './Cart.css'
 import ChooseCart from '../ChooseCart/ChooseCart';
 
-const Cart = ({Products}) => {
-    // console.log(Products);
+const Cart = ({Products, resetFun}) => {
+    console.log(Products);
+
     const [chooseItem, setChooseItem] = useState({})
     
-   const chooseForMe = product=>{
+    const chooseForMe = product=>{
     const random = Math.floor(Math.random()*product.length)
-     let item = product[random];
 
-    setChooseItem(item);
+    setChooseItem(product[random]);
     
    }
-   
 
-   const reset = ()=>{
-     setChooseItem([])
-   } 
+
+//    const [resetData, setResetData] = useState([])
+
+//    const reset = () =>{
+    
+//   } 
 
     return (
         <div className='Cart'>
@@ -32,13 +34,10 @@ const Cart = ({Products}) => {
                 }
             </div>
 
-
             <div className="choose-btn">
                 <button onClick={()=>chooseForMe(Products)}>Choose For Me</button>
-                <button onClick={()=>reset()}>Reset</button>
+                <button onClick={()=>resetFun()}>Reset</button>
             </div>
-
-
 
             <ChooseCart chooseItem={chooseItem}></ChooseCart>
             

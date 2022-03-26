@@ -27,6 +27,10 @@ const Shop = () => {
     }
 
   
+   const reset = () =>{
+    setCart([])
+  } 
+
     // console.log(chooseItem);
 
     return (
@@ -39,7 +43,7 @@ const Shop = () => {
                 </div>
                 <div className="cart-container">
                     <div className="cart-body">
-                    <Cart Products={cart} ></Cart>
+                    <Cart Products={cart} resetFun={reset}></Cart>
                     </div>
                    
                 </div>

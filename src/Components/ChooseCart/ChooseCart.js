@@ -3,8 +3,9 @@ import './ChooseCart.css'
 
 const ChooseCart = ({chooseItem}) => {
     return (
-        <div>
-            <h1>{chooseItem.name}</h1>
+        <div className='choose-card'>
+            <img src={chooseItem.icon} alt="" />
+            <h3>{chooseItem.name}</h3>
         </div>
     );
 };

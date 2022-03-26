@@ -1,3 +1,21 @@
-h1 {
-    color: blueviolet
+.choose-card {
+    background: transparent;
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 0 0;
+}
+
+.choose-card img {
+    width: 60px;
+}
+
+.choose-card h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: blueviolet;
 }

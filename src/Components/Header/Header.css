@@ -47,3 +47,21 @@
     top: 50%;
     left: 65%;
 }
+
+
+
+@media only screen and (max-width: 380px) {
+    .Header h5 {
+        margin-top: 0;
+        font-size: 18px;
+        font-weight: 400;
+        color: rgb(112, 41, 245);
+        position: relative;
+        padding: 0 50px;
+    }
+
+    .Header h5::after,
+    .Header h5::before {
+        display: none;
+    }
+}

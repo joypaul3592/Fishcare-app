@@ -1,0 +1,27 @@
+.ans-container {
+    background: rgba(73, 13, 129, 0.082);
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ans-container .ans-card {
+    width: 40%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px rgba(48, 47, 48, 0.109);
+    padding: 2%;
+}
+
+@media only screen and (max-width: 380px) {
+    .ans-container {
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .ans-container .ans-card {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
