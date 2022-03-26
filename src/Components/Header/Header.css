@@ -1,0 +1,49 @@
+.Header h1 {
+    color: blueviolet;
+    font-size: 56px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.Header h5 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(112, 41, 245);
+    position: relative;
+    padding: 0 50px;
+}
+
+.Header h1::after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 0 50px 0;
+    background: rgba(15, 48, 192, 0.287);
+    position: absolute;
+    right: -15%;
+    top: 8%;
+    transform: rotate(-10deg);
+}
+
+.Header h5::after {
+    content: '';
+    width: 30%;
+    height: 2px;
+    background: rgba(15, 48, 192, 0.287);
+    position: absolute;
+    top: 50%;
+    right: 65%;
+}
+
+.Header h5::before {
+    content: '';
+    width: 30%;
+    height: 2px;
+    background: rgba(15, 48, 192, 0.287);
+    position: absolute;
+    top: 50%;
+    left: 65%;
+}

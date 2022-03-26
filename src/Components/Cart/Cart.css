@@ -1,0 +1,25 @@
+.Cart {
+    padding: 20px 0;
+    padding-bottom: 150px;
+}
+
+.Cart h1 {
+    font-size: 30px;
+    font-weight: normal;
+    color: rgb(45, 15, 73);
+    position: relative;
+    display: inline-block;
+    margin: auto;
+}
+
+.Cart h1::after {
+    content: '';
+    width: 35px;
+    height: 35px;
+    border-radius: 50px 0 50px 0;
+    background: rgba(15, 48, 192, 0.287);
+    position: absolute;
+    right: -15%;
+    top: -15%;
+    transform: rotate(-10deg);
+}

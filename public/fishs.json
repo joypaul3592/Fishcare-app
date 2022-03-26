@@ -1,0 +1,100 @@
+[
+   {
+  "id": 1,
+  "name": "Bitterling",
+  "price": 900,
+  "Description": "Bitterlings hide their eggs inside large bivalves—like clams—where the young can stay safe until grown. The bitterling isn't being sneaky. No, their young help keep the bivalve healthy by eating invading parasites! It's a wonderful bit of evolutionary deal making, don't you think? Each one keeping the other safe... Though eating parasites does not sound like a happy childhood... Is that why the fish is so bitter?",
+  "image": "https://acnhapi.com/v1/images/fish/1",
+  "icon": "https://acnhapi.com/v1/icons/fish/1"
+  },
+  {
+  "id": 2,
+  "name": "Pale Chub",
+  "price": 200,
+  "Description": "The pale chub is a river fish with simple back-and-silver coloring. Interestingly, the males' coloring becomes most vibrant when he's trying to attract a mate! Though normally plain, these fellows really know how to look stylish when they want to. Perhaps I could learn a thing or two from the pale chub...",
+  "image": "https://acnhapi.com/v1/images/fish/2",
+  "icon": "https://acnhapi.com/v1/icons/fish/2"
+  },
+  {
+  "id": 3,
+  "name": "Crucian Carp",
+  "price": 160,
+  "Description": "I wonder... Do you know how to tell the difference between a crucian carp and a standard-issue carp? It's quite easy to tell the two apart... One must simply locate the barbels. Or, rather, the lack of them! And just what is a barbel, you ask? Well, a barbel looks a little something like a mustache. A run-of-the-mill carp will sport this unsightly \"facial hair,\" while a crucian carp is considerably better groomed! I tried to grow a mustache when I was younger. It never did fill in quite right... All for the best in the end, as mustaches go so much better with noses than with beaks!",
+  "image": "https://acnhapi.com/v1/images/fish/3",
+  "icon": "https://acnhapi.com/v1/icons/fish/3"
+  },
+  {
+  "id": 4,
+  "name": "Dace",
+  "price": 240,
+  "Description": "Dace are shiny little fish that enjoy freshwater streams with gravelly bottoms and plenty of sunlight. What a fishy paradise...until the larger fish move in and begin eating the dace! Sadly, the shiny dace are easy for other fish to spot, which makes them a popular snack. However, this particular specimen here has no need to worry. There's a strict \"No Eating Your Neighbor\" policy at this institution.",
+  "image": "https://acnhapi.com/v1/images/fish/4",
+  "icon": "https://acnhapi.com/v1/icons/fish/4"
+  },
+  {
+  "id": 5,
+  "name": "Goldfish",
+  "price": 1300,
+  "Description": "Goldfish are so cute and delicate... but do you know how big they can get? Why, they can grow up to... a foot in length! Well, sometimes. The size of the tank they're kept in tends to restrict their growth. And just how big will this goldfish get in our large museum tank? I look forward to finding out!",
+  "image": "https://acnhapi.com/v1/images/fish/7",
+  "icon": "https://acnhapi.com/v1/icons/fish/7"
+  },
+  {
+  "id": 6,
+  "name": "Pop Eyed Goldfish",
+  "price": 1300,
+  "Description": "Pop-eyed goldfish have, as the name suggests, huge round eyes. But as babies they look like other goldfish! As they grow, their eyes begin to pop out and they gain their, hoo, distinct appearance... Imagine the poor fish fancier who unknowingly bought one! Their eyes might well pop out just as far!",
+  "image": "https://acnhapi.com/v1/images/fish/8",
+  "icon": "https://acnhapi.com/v1/icons/fish/8"
+  },
+  {
+  "id": 7,
+  "name": "Ranchu Goldfish",
+  "price": 4500,
+  "Description": "The ranchu goldfish is a charming relative of the goldfish with a bumpy head and stout, round body. They have ordinary heads when born, but develop impressive rectangular heads after about three years. Supposedly their head shape changes depending on factors like the size of their tank... So ranchu goldfish enthusiasts aim to raise perfectly shaped specimens and work hard to achieve this. Of course, no one asks the ranchu goldfish themselves what shape they want their heads to be...",
+  "image": "https://acnhapi.com/v1/images/fish/9",
+  "icon": "https://acnhapi.com/v1/icons/fish/9"
+  },
+  {
+  "id": 8,
+  "name": "killifish",
+  "price": 300,
+  "Description": "Ah, the magnificent killifish! Did you know there are over 1,000 different species? My own favorite killifish species are the mangrove, which can live on land for weeks, breathing air! And the mummichog, the first fish ever brought to space. I wonder if the killifish you've brought me is related to either those intrepid explorers?",
+  "image": "https://acnhapi.com/v1/images/fish/10",
+  "icon": "https://acnhapi.com/v1/icons/fish/10"
+  },
+  {
+  "id": 9,
+  "name": "Crawfish",
+  "price": 200,
+  "Description": "Ohoo! So you have found a crawfish. Neither crab nor lobster, crawfish evolved in an interesting manner. Beware their fearsome pinchy pinchers! Behold their many legs! I say! It is a big bug-like, eh wot...The more I look at it, the more unsettled I feel... Let's be done with this and never speak of it again, shall we?",
+  "image": "https://acnhapi.com/v1/images/fish/11",
+  "icon": "https://acnhapi.com/v1/icons/fish/11"
+  },
+  {
+   "id": 10,
+   "name": "Cherry Salmon",
+   "price": 1000,
+   "Description": "The cherry salmon is related to the salmon, and is known for its distinctive pattern of \"polka dots\". There polka dots disappear as they mature, but ONLY in the first of certain geographic regions. Pity the poor researchers that must make sense of the cherry salmon's fickle fashion sense.",
+   "image": "https://acnhapi.com/v1/images/fish/27",
+   "icon": "https://acnhapi.com/v1/icons/fish/27"
+   },
+   {
+   "id": 11,
+   "name": "Char",
+   "price": 3800,
+   "Description": "The char is one of the bigger first around the world, and, in the world of fish, that's quite an accomplishment! They are territorial predators, and therefore must constantly defend their 'turf' from others. So when you see a large char like this one, it is likely a skilled fighter and veteran of many battles. My feathers! I hope it never has cause to go into battle with me!",
+   "image": "https://acnhapi.com/v1/images/fish/28",
+   "icon": "https://acnhapi.com/v1/icons/fish/28"
+   },
+   {
+   "id": 12,
+   "name": "Golden Trout",
+   "price": 15000,
+   "Description": "The golden trout is a beautifully colored fish that can only live in very clean waters. They are difficult to come across since they are found only in high mountain streams. As a side note, I find it much easier to appreciate fish that aren't such prima donnas about everything.",
+   "image": "https://acnhapi.com/v1/images/fish/29",
+   "icon": "https://acnhapi.com/v1/icons/fish/29"
+   }
+   
+
+  ]
