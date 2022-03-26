@@ -46,12 +46,18 @@
 
 .price-conatiner button {
     padding: 8px 18px;
-    border: none;
+    border: 1px solid blueviolet;
     outline: none;
     background: blueviolet;
     color: #fff;
     border-radius: 3px;
     cursor: pointer;
+}
+
+.price-conatiner button:hover {
+    background: transparent;
+    color: blueviolet;
+    transition: 0.3s;
 }
 
 button svg {
