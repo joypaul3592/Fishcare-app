@@ -8,15 +8,15 @@ const Cart = ({Products}) => {
     const [chooseItem, setChooseItem] = useState({})
     
    const chooseForMe = product=>{
- 
-     let item = product[Math.floor(Math.random()*product.length)];
+    const random = Math.floor(Math.random()*product.length)
+     let item = product[random];
 
     setChooseItem(item);
     
    }
    
 
-   const reset = (products)=>{
+   const reset = ()=>{
      setChooseItem([])
    } 
 
@@ -35,13 +35,12 @@ const Cart = ({Products}) => {
 
             <div className="choose-btn">
                 <button onClick={()=>chooseForMe(Products)}>Choose For Me</button>
-                <button onClick={()=>reset(chooseItem)}>Reset</button>
+                <button onClick={()=>reset()}>Reset</button>
             </div>
 
 
 
             <ChooseCart chooseItem={chooseItem}></ChooseCart>
-            
             
         </div>
     );
